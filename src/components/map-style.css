@@ -1,0 +1,21 @@
+.map-container {
+    display: flex;
+}
+
+a {
+    cursor: pointer;
+    color: #a95aec
+}
+
+.popup {
+    max-width: 85%;
+}
+
+.popup-description {
+    overflow-y: scroll;
+    max-height: 150px;
+}
+
+h3 {
+    margin: 0px 0px 7px;
+}

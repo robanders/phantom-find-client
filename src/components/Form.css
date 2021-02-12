@@ -1,0 +1,102 @@
+.custom-form {
+    width: 75%;
+    max-width: 585px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+
+.custom-form > h1 {
+    text-align: center;
+
+}
+
+.custom-invalid-checkbox {
+    color: #dc3545;
+    width: 100%;
+    font-size: 80%;
+}
+
+.custom-checkbox {
+    margin-right: 0.25rem;
+}
+
+.checkbox {
+    margin-top: .5rem;
+}
+
+hr.solid {
+    border-top: 1px solid rgb(216, 210, 210);
+}
+
+.form-alert {
+    text-align: center;
+}
+
+.logged-in {
+    text-align: center;
+}
+
+.outer-form-container {
+    padding: 0px;
+}
+
+.inner-section {
+    width: 100%;
+    padding: 0px;
+    overflow: visible;
+    margin-bottom: 30px;
+}
+
+.submit-button {
+    background-color: lightgray;
+}
+
+.marker-instructions {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.forgot-pw {
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+
+.map-container {
+    width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+    .outer-form-container {
+        padding: 40px;
+    }
+
+    .custom-form {
+        border-radius: 3px;
+        box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+        background-color: #ffffff;
+        margin: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+}
+
+.sign-up-header {
+    font-size: 18px;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    margin-top: 15px;
+    color: #a95aec;
+}
